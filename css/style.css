@@ -16,7 +16,13 @@
     font-family: TitilliumWeb-Light;
     src: url('../assets/fonts/Titillium_Web/TitilliumWeb-Light.ttf');
 }
+
+@font-face {
+    font-family: Tit-italic;
+    src: url('../assets/fonts/Titillium_Web/TitilliumWeb-Italic.ttf');
+}
 body{
+    font-family: Tit-italic;
     font-family: TitilliumWeb-SemiBold;
     font-family: TitilliumWeb-Bold;
     font-family: TitilliumWeb-Light;
@@ -416,4 +422,95 @@ header{
     font-family: TitilliumWeb-SemiBold;
     border-bottom: 3px solid #14a58c;
     border-radius: 3px;
+}
+
+.reference-section{
+    background-color: #d74680;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px 0px;
+    padding-bottom: 70px;
+}
+
+.ref-head h1{
+    color: #fff;
+}
+
+.ref-head hr{
+    background-color: #c23f73;
+}
+
+.ref-head p{
+    color: #fff;
+}
+
+.first2{
+    width: 100%;
+    margin: auto;
+}
+
+.second2{
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+.ref-box{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+.gapp{
+    width: 10%;
+    float: left;
+}
+
+.gapp p{
+    width: 100%;
+    text-align: center;
+}
+
+.ref-img{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.ref-img img{
+    width: 70%;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #c23f73;
+}
+
+.ref-quota{
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+.ref-quota p{
+    color: #fff;
+    opacity: 0.8;
+    font-family: Tit-italic;
+    margin-top: 5px;
+}
+
+.ref-quota h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: TitilliumWeb-SemiBold;
+    margin-bottom: 2px;
+}
+
+.ref-quota p:last-child{
+    color: #facd96;
+    margin-top: 0px;
+    font-family: TitilliumWeb-Regular;
+    font-size: 15px;
 }
