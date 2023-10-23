@@ -514,3 +514,143 @@ header{
     font-family: TitilliumWeb-Regular;
     font-size: 15px;
 }
+
+.contact-section{
+    background-color: #3c5499;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px 0px;
+    padding-bottom: 70px;
+}
+
+.contact-head h1{
+    color: #fff;
+}
+
+.contact-head p{
+    color: #fff;
+}
+
+.contact-head hr{
+    background-color: #273a71;
+}
+
+.form-sec{
+    width: 55%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.input-sec{
+    width: 100%;
+}
+
+.input1{
+    float: left;
+    width: 50%;
+}
+
+.input1 input{
+    background-color: #273a71;
+    border-radius: 2px;
+    border: 3px solid #273a71;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    width: 92%;
+    height: 32px;
+    color: #fff;
+    padding-left: 12px;
+}
+
+.input-sec .input1:first-child{
+    text-align: left;
+}
+
+.input-sec .input1:last-child{
+    text-align: right;
+}
+
+.input1 input::placeholder{
+    color: #fff;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.input2{
+    width: 100%;
+    margin-top: 18px;
+    text-align: left;
+}
+
+textarea{
+    background-color: #273a71;
+    border-radius: 2px;
+    border: 3px solid #273a71;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    width: 97%;
+    height: 135px;
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 12px;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.send-btn{
+    clear: both;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.send-btn input{
+    background-color: #30bae7;
+    color: #fff;
+    padding: 15px 40px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    text-decoration: none;
+    font-family: TitilliumWeb-SemiBold;
+    border: none;
+    border-bottom: 3px solid #299ec5;
+    border-radius: 3px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.send-btn input:hover{
+    cursor: pointer;
+}
+
+textarea:focus{
+    outline: none;
+    transform: scale(1.01,1.01);
+    -webkit-transform: scale(1.01,1.01);
+    -moz-transform: scale(1.01,1.01);
+    -ms-transform: scale(1.01,1.01);
+    -o-transform: scale(1.01,1.01);
+}
+
+.input1 input:focus{
+    outline: none;
+    transform: scale(1.01,1.01);
+    -webkit-transform: scale(1.01,1.01);
+    -moz-transform: scale(1.01,1.01);
+    -ms-transform: scale(1.01,1.01);
+    -o-transform: scale(1.01,1.01);
+}
+
+.input1 input:focus::placeholder{
+    color: #273a71;
+    opacity: 1.0;
+}
