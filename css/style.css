@@ -580,19 +580,19 @@ header{
 
 .input2{
     width: 100%;
-    margin-top: 18px;
+    margin-top: 25px;
     text-align: left;
 }
 
 textarea{
     background-color: #273a71;
-    border-radius: 2px;
+    border-radius: 3px;
     border: 3px solid #273a71;
     -webkit-border-radius: 3px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    width: 97%;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 98%;
     height: 145px;
     color: #fff;
     opacity: 0.9;
