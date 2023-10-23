@@ -536,7 +536,7 @@ header{
 }
 
 .form-sec{
-    width: 55%;
+    width: 60%;
     margin: auto;
     margin-top: 45px;
 }
@@ -558,7 +558,7 @@ header{
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
-    width: 92%;
+    width: 90%;
     height: 32px;
     color: #fff;
     padding-left: 12px;
@@ -654,3 +654,30 @@ textarea:focus{
     color: #273a71;
     opacity: 1.0;
 }
+
+footer{
+    background: #344b8e;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-container{
+    margin: 40px auto;
+}
+
+footer nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+footer nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 28px;
+    font-family: TitilliumWeb-SemiBold;
+}
+
+footer nav ul li a:hover{
+    color: #30bae7;
+}
+
