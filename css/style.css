@@ -35,7 +35,7 @@ header{
 }
 
 .container{
-    width: 90%;
+    width: 92%;
     margin: 50px auto;
 }
 
@@ -123,10 +123,10 @@ header{
     padding-bottom: 40px;
 }
 .header-body h1{
-    color: #542684;
+    color: #f7f3ea;
     margin-bottom: 50px;
     font-weight: 400;
-    font-family: TitilliumWeb-SemiBold;
+    font-family: TitilliumWeb-Bold;
 }
 
 .header-body a{
@@ -242,12 +242,12 @@ header{
     margin-bottom: 10px;
 }
 
-.section-head hr{
+.team-head hr{
     width: 10%;
     background-color:  #c8d9e5;
 }
 
-.section-head p{
+.team-head p{
     color: #5d677b;
     margin-top: 11px;
     font-family: Tit;
@@ -536,7 +536,7 @@ header{
 }
 
 .form-sec{
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 45px;
 }
@@ -593,7 +593,7 @@ textarea{
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     width: 97%;
-    height: 135px;
+    height: 145px;
     color: #fff;
     opacity: 0.9;
     padding-left: 12px;
